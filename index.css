@@ -1,0 +1,227 @@
+body {
+	margin-left: 40px;
+	margin-right: 40px;
+	width: auto;
+}
+
+.wrap {
+	position: absolute;
+	left: 0;
+	bottom: 40px;
+	width: 288px;
+	height: 132px;
+	margin-left: -144px;
+	text-align: left;
+	overflow: hidden;
+	font-size: 12px;
+	font-family: 'Malgun Gothic', dotum, '돋움', sans-serif;
+	line-height: 1.5;
+}
+
+.wrap * {
+	padding: 0;
+	margin: 0;
+}
+
+.wrap .info {
+	width: 286px;
+	height: 120px;
+	border-radius: 5px;
+	border-bottom: 2px solid #ccc;
+	border-right: 1px solid #ccc;
+	overflow: hidden;
+	background: #fff;
+}
+
+.wrap .info:nth-child(1) {
+	border: 0;
+	box-shadow: 0px 1px 2px #888;
+}
+
+.info .title {
+	padding: 5px 0 0 10px;
+	height: 30px;
+	background: #eee;
+	border-bottom: 1px solid #ddd;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.info .close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #888;
+	width: 17px;
+	height: 17px;
+	background:
+		url('http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/overlay_close.png');
+}
+
+.info .close:hover {
+	cursor: pointer;
+}
+
+.info .body {
+	position: relative;
+	overflow: hidden;
+}
+
+.info .desc {
+	position: relative;
+	margin: 13px 0 0 90px;
+	height: 75px;
+}
+
+.desc .ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.desc .jibun {
+	font-size: 11px;
+	color: #888;
+	margin-top: -2px;
+}
+
+.info .img {
+	position: absolute;
+	top: 6px;
+	left: 5px;
+	width: 73px;
+	height: 71px;
+	border: 1px solid #ddd;
+	color: #888;
+	overflow: hidden;
+}
+
+.info:after {
+	content: '';
+	position: absolute;
+	margin-left: -12px;
+	left: 50%;
+	bottom: 0;
+	width: 22px;
+	height: 12px;
+	background:
+		url('http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')
+}
+
+.info .link {
+	color: #5085BB;
+}
+
+h1 {
+	text-align: center;
+}
+
+/* div#exhibition {
+	background-color: #d9d9d9;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	border: 1px solid #d9d9d9;
+}
+
+div.exhibitionItem {
+	font-family: Verdana, Helvetica, sans-serif;
+	color: #434343;
+	padding: 10px;
+}
+
+div.exhibitionItem:nth-child(2n) {
+	background-color: #fafafa;
+}
+
+div.exhibitionItem:first-child {
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+div.exhibitionItem:last-child {
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+ */
+.exContainer {
+	text-align: center;
+	border: 1px solid black;
+	width: 310px;
+	height: 420px;
+	float: left;
+	padding-top: 5px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+
+.exTitle {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.exDate {
+	font-size: 15px;
+}
+
+.edContainer {
+	width: 100%;
+	/*            background-color: aquamarine;*/
+	border: 1px solid #888888;
+	margin-bottom: 10px;
+}
+
+.edMainImg {
+	padding: 20px;
+	display: inline-block;
+}
+
+.edContent {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 50px;
+	vertical-align: top;
+}
+
+.edTitle {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.edSubTitle {
+	display: inline-block;
+	color: #888888;
+	margin-right: 20px;
+}
+
+.edContext {
+	display: inline-block;
+}
+
+.edContainer>.edApply {
+	font-size: 30px;
+	margin-left: 250px;
+}
+
+.edApply a:active {
+	color: blue;
+}
+
+.edApply a:hover {
+	color: blue;
+}
+
+.edApply a:visited {
+	color: blue;
+}
+
+.edApply a:link {
+	color: blue;
+}
